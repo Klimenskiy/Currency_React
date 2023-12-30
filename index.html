@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="style/fonts.scss" />
     <link rel="icon" href="img/notebook-svgrepo-com.svg" />
     <script src="script.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -50,7 +47,11 @@
                 <a href="tel:+48453504106"
                   ><img src="img/tel.png" alt="tel"
                 /></a>
-                <a href="#contacts"><button>Contact Me</button></a>
+                <button
+                  onclick="document.getElementById('contacts').scrollIntoView({ behavior: 'smooth' });"
+                >
+                  Contact Me
+                </button>
               </div>
             </div>
           </div>
@@ -107,9 +108,10 @@
             <h2>Main Skills</h2>
 
             <div class="skills__figure">
-              <img src="/img/icons/react.svg" alt="react" />
-              <img src="/img/icons/js.svg" alt="js" />
               <img src="/img/icons/html.svg" alt="html" />
+              <img src="/img/icons/js.svg" alt="js" />
+              <img src="/img/icons/react.svg" alt="react" />
+              <img src="/img/icons/typescript.svg" alt="typescript" />
               <img src="/img/icons/sass.svg" alt="sass" />
             </div>
           </div>
