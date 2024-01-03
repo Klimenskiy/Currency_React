@@ -404,6 +404,9 @@ a {
 }
 
 .footer {
+  &__wrapper {
+    margin: 0 15px;
+  }
   &__contact {
     margin: 0 auto;
     max-width: 620px;
@@ -411,6 +414,7 @@ a {
     background-color: #febd3b;
     border-radius: 50px;
     margin-bottom: 100px;
+    padding: 0 10px;
     h2 {
       text-align: center;
       font-family: "Caveat Brush";

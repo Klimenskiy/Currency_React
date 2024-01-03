@@ -519,6 +519,9 @@ a {
   margin-bottom: 100px;
 }
 
+.footer__wrapper {
+  margin: 0 15px;
+}
 .footer__contact {
   margin: 0 auto;
   max-width: 620px;
@@ -526,6 +529,7 @@ a {
   background-color: #febd3b;
   border-radius: 50px;
   margin-bottom: 100px;
+  padding: 0 10px;
 }
 .footer__contact h2 {
   text-align: center;
