@@ -262,8 +262,45 @@ a {
 }
 
 .skills {
-  &__wrapper {
+  &__all {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
     display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    h2 {
+      font-size: 46px;
+      font-family: "Caveat Brush";
+      margin-bottom: 40px;
+    }
+  }
+  &__experience {
+    font-family: "Julee", cursive;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    h2 {
+      font-size: 46px;
+      font-family: "Caveat Brush";
+      margin-bottom: 40px;
+    }
+  }
+  &__wrapper {
     margin: 0 auto;
   }
   &__container {
@@ -612,6 +649,23 @@ a {
   }
 }
 
+@media (max-width: 1200px) {
+  .skills__all p {
+    font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .skills__all h2 {
+    font-size: calc(24px + (46 - 24) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
+
+@media (max-width: 1200px) {
+  .skills__experience p {
+    font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .skills__experience h2 {
+    font-size: calc(24px + (46 - 24) * ((100vw - 320px) / (1200 - 320)));
+  }
+}
 @media (max-width: 1200px) {
   .main__text p {
     font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1200 - 320)));

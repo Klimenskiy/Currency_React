@@ -321,10 +321,59 @@ a {
   color: #000;
 }
 
-.skills__wrapper {
+.skills__all {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+  margin-bottom: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+.skills__all h2 {
+  font-size: 46px;
+  font-family: "Caveat Brush";
+  margin-bottom: 40px;
+}
+.skills__experience {
+  font-family: "Julee", cursive;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+  margin-bottom: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+.skills__experience h2 {
+  font-size: 46px;
+  font-family: "Caveat Brush";
+  margin-bottom: 40px;
+}
+.skills__wrapper {
   margin: 0 auto;
 }
 .skills__container {
@@ -773,6 +822,22 @@ a {
   }
   .main__body .main__contacts a {
     font-size: calc(14px + 6 * (100vw - 320px) / 880);
+  }
+}
+@media (max-width: 1200px) {
+  .skills__all p {
+    font-size: calc(16px + 8 * (100vw - 320px) / 880);
+  }
+  .skills__all h2 {
+    font-size: calc(24px + 22 * (100vw - 320px) / 880);
+  }
+}
+@media (max-width: 1200px) {
+  .skills__experience p {
+    font-size: calc(16px + 8 * (100vw - 320px) / 880);
+  }
+  .skills__experience h2 {
+    font-size: calc(24px + 22 * (100vw - 320px) / 880);
   }
 }
 @media (max-width: 1200px) {
