@@ -1,5 +1,5 @@
 import React from 'react'
-import Wrapper from './Wrapper'
+import Wrapper from './wrapper'
 
 const Ticker = props => {
 	const [dataUrl, setDataUrl] = React.useState('')
