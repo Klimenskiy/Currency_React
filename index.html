@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nikita Klimko</title>
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="stylesheet" href="style/fonts.scss" />
+		<link rel="icon" href="img/notebook-svgrepo-com.svg" />
+		<script src="script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<button class="burger-menu" id="burger">
+					<span></span><span></span><span></span>
+				</button>
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="header__content">
+							<div class="header__logo">
+								<img src="img/N.png" alt="N__logo" />
+								<p>K L I M K O</p>
+							</div>
+
+							<div class="header__center">
+								<div class="header__pages">
+									<a href="#projects">Projects</a>
+									<a href="#contacts">Contacts</a>
+									<a href="#skills">Skills</a>
+								</div>
+								<div class="header__social">
+									<a href="https://t.me/klimenskiy_js" target="_blank">
+										<img src="img/telegram.png" alt="telegram" />
+									</a>
+									<a
+										href="https://www.linkedin.com/in/klimenskiy98/"
+										target="_blank"
+									>
+										<img src="img/linkedin.png" alt="linkedin"
+									/></a>
+								</div>
+							</div>
+
+							<div class="header__contacts">
+								<a href="tel:+48453504106"
+									><img src="img/tel.png" alt="tel"
+								/></a>
+								<button
+									onclick="document.getElementById('contacts').scrollIntoView({ behavior: 'smooth' });"
+								>
+									Contact Me
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<main class="main">
+			<div class="container">
+				<div class="main__wrapper">
+					<div class="main__content">
+						<img
+							class="main__right-decor"
+							src="img/myphoto.png"
+							alt="myphoto"
+						/>
+						<img
+							class="main__left-decor"
+							src="img/left-decor.png"
+							alt="decor"
+						/>
+						<div class="main__body">
+							<div class="main__text">
+								<h2 class="main__title">Hi! I’m Nikita Klimko -</h2>
+								<h3>FrontEnd Developer</h3>
+
+								<p>
+									I live in Wroclaw/Poland. <br />
+									At the moment, I am a freelancer.
+									<br />
+									For about 4 years, I have been involved in website <br />
+									development. <br />
+									I would be very pleased to collaborate with you.
+								</p>
+							</div>
+							<div class="main__contacts">
+								<div class="main__contacts-item">
+									<p class="main__contacts-email">Email:</p>
+									<a href="mailto:nikitaklimko98@gmail.com"
+										>nikitaklimko98@gmail.com</a
+									>
+								</div>
+								<div class="main__contacts-item">
+									<p class="main__contacts-tel">Tel:</p>
+									<a href="tel:+48453504106">+48453504106</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="skills">
+				<div class="skills__wrapper">
+					<div class="skills__experience">
+						<h2>Experience</h2>
+						<p>
+							(2019-2020) - Own online store on WordPress. <br />(2020-2021) -
+							One year of work at Amo Points as a Junior FrontEnd Developer. My
+							responsibilities included website layout and the functionality of
+							elements. <br />
+							(2021-2023) - Freelance (Creating/Enhancing Websites. Adaptive,
+							Cross-Browser Website Layout. <br />
+							Team collaboration using Git.)
+						</p>
+					</div>
+					<div id="skills" class="skills__container">
+						<h2>Main Skills</h2>
+
+						<div class="skills__figure">
+							<img src="img/icons/html.svg" alt="html" />
+							<img src="img/icons/js.svg" alt="js" />
+							<img src="img/icons/nextjs.png" alt="nextjs" />
+							<img src="img/icons/react.svg" alt="react" />
+
+							<img src="img/icons/typescript.svg" alt="typescript" />
+							<img src="img/icons/sass.svg" alt="sass" />
+						</div>
+					</div>
+					<div class="skills__all">
+						<h2>All Skills:</h2>
+						<p>
+							React, Next JS, JavaScript, TypeScript, HTML, CSS, SASS, JQuery,
+							Webpack, Bootstrap, Git, Wordpress.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio">
+				<div class="portfolio__wrapper">
+					<div id="projects" class="portfolio__content">
+						<h2>Meet My Projects</h2>
+						<div class="portfolio__img">
+							<a target="_blank" href="https://klimenskiy.github.io/crypto/"
+								><img
+									class="portfolio__memcoin"
+									src="img/portfolio/DUCK.jpg"
+									alt="memcoin"
+							/></a>
+							<div class="portfolio__grid">
+								<a target="_blank" href="https://todo-klimenskiy.vercel.app/"
+									><img src="img/portfolio/todo.png" alt="react-app"
+								/></a>
+								<a
+									target="_blank"
+									href="https://klimenskiy.github.io/Weather_App/"
+									><img src="img/weather.png" alt="weather"
+								/></a>
+								<a target="_blank" href="https://klimenskiy.github.io/Quiz_JS/"
+									><img src="img/portfolio/quiz.jpg" alt="quiz"
+								/></a>
+								<a target="_blank" href="https://klimenskiy.github.io/Indesit/"
+									><img src="img/portfolio/second.jpg" alt="second"
+								/></a>
+								<a
+									target="_blank"
+									href="https://klimenskiy.github.io/Beauties-Life/"
+									><img src="img/portfolio/first.jpg" alt="first"
+								/></a>
+
+								<a
+									target="_blank"
+									href="https://klimenskiy.github.io/Box-House/"
+									><img src="img/portfolio/four.jpg" alt="house"
+								/></a>
+							</div>
+							<a
+								target="_blank"
+								href="https://klimenskiy.github.io/Xiaomi-HIMO/"
+								><img
+									class="portfolio__xiaomi"
+									src="img/portfolio/three.jpg"
+									alt="xiaomi"
+							/></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__wrapper">
+						<div id="contacts" class="footer__contact">
+							<h2>Contact Me</h2>
+							<form id="contact__form" class="footer__form">
+								<input type="text" placeholder="Your Name" id="from_name" />
+								<input type="text" placeholder="Your Email" id="email_id" />
+								<input type="text" placeholder="Your Message" id="message" />
+								<button class="footer__form-btn" type="submit">
+									Send Message
+								</button>
+							</form>
+							<div class="footer__loc">
+								<div class="footer__items">
+									<p>Wroclaw, Poland</p>
+									<p>Nikita Klimko</p>
+								</div>
+								<div class="footer__social">
+									<a href="https://t.me/klimenskiy_js" target="_blank">
+										<img src="img/telegram.png" alt="telegram" />
+									</a>
+									<a
+										href="https://www.linkedin.com/in/klimenskiy98/"
+										target="_blank"
+									>
+										<img src="img/linkedin.png" alt="linkedin"
+									/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>
