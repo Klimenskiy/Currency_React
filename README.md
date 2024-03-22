@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 https://klimenskiy.github.io/Resume/
 >>>>>>> f21bad99cf2d61dca0a5fe2bd58951a0199bbad4
+=======
+## The application is under development.
+# React application for real-time currency exchange rates.
+# Work plan:
+# Find suitable APIs.
+# Create two blocks for cryptocurrency and stocks.
+
+>>>>>>> 0ebf38aa85af17a0c66d20f4f34da3f7f8182c61
