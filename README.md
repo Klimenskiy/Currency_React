@@ -3,4 +3,4 @@
 # Development plan:
 
 # 1)Find an unlimited cryptocurrency exchange rates API.
-# 2)Implement the second block with global stocks."
+# 2)Implement the second block with global stocks.
