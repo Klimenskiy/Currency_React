@@ -24,9 +24,9 @@ const Ticker = props => {
 		'ILS',
 		'BRL',
 		'MYR',
-		'IDR',
+		'XDR',
 		'INR',
-		'CNY'
+		'CNY',
 	]
 	React.useEffect(() => {
 		if (currencyArray && currencyArray.length > 0) {

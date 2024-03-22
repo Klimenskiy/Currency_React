@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +10,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.71.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@emailjs/browser": "^3.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,9 +36,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "@emailjs/browser": "^3.11.0"
->>>>>>> f21bad99cf2d61dca0a5fe2bd58951a0199bbad4
   }
 }
+
